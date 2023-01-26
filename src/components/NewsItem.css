@@ -1,0 +1,74 @@
+
+
+.sectionContainer {
+    display: flex;
+    width: 940px;
+    height: 151px;
+    margin: 1em;
+}
+
+
+.sectionLeft {
+    flex: 1;
+}
+
+.sectionLeft img {
+    max-height: 100%;
+    border-radius: 12px;
+}
+
+
+.sectionRight {
+    flex: 2;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sectionFinance {
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 12px;
+    height: 60px;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: hotpink;
+}
+
+
+.sectionHeading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionHeading a {
+    color: blueviolet;
+    font-size: medium;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.sectionHeadline a {
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.sectionHeadline a:hover {
+    color: blueviolet;
+}
+
+
+.title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 58px;
+}
